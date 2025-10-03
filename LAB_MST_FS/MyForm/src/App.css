@@ -1,0 +1,142 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* App.css */
+
+/* Light gradient background */
+.app-container {
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+/* Form Card */
+.form-card {
+  animation: fadeInUp 0.7s ease-in-out;
+}
+
+/* Input fields */
+.input-field {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1.5px solid #d1d5db;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #60a5fa;
+  outline: none;
+  box-shadow: 0 0 8px rgba(96, 165, 250, 0.4);
+}
+
+/* Submit button */
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #60a5fa, #3b82f6);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+}
+
+/* Table container */
+.table-container {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Table header */
+.table-header {
+  background-color: #60a5fa;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* Table rows */
+.table-row-even {
+  background-color: #f9fafb;
+}
+
+.table-row-odd {
+  background-color: #ffffff;
+}
+
+/* Table hover */
+.table-container table tr:hover {
+  background-color: #e0f2fe;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
