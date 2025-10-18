@@ -1,8 +1,0 @@
-import React from "react";
-import ResumeForm from "./ResumeForm";
-
-function App() {
-  return <ResumeForm />;
-}
-
-export default App;
