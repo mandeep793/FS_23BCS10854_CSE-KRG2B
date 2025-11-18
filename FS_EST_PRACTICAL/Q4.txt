@@ -1,0 +1,15 @@
+<!--QUES 4-->
+ <!-- purpose of @getmapping,@postmapping,@putmapping and @deletemappinng? explain each annotation and the http method it represents?
+
+The annotations @GetMapping, @PostMapping, @PutMapping, and @DeleteMapping are part of the Spring Framework in Java,
+ specifically used in Spring MVC to map HTTP requests to handler methods in controller classes. 
+ Each annotation corresponds to a specific HTTP method: 
+1. @GetMapping: This annotation is used to map HTTP GET requests to a specific handler method. It is typically used for retrieving data from the server. 
+ For example, when a client requests a resource, such as a list of users or a specific user by ID, the method annotated with @GetMapping will handle that request.
+2. @PostMapping: This annotation maps HTTP POST requests to a handler method. It is commonly used for creating new resources on the server. 
+ When a client submits data to the server, such as form data for creating a new user, the method annotated with @PostMapping will process that data and create the resource.        
+3. @PutMapping: This annotation is used to map HTTP PUT requests to a handler method. It is typically used for updating existing resources on the server. 
+ When a client sends updated data for a resource, such as modifying user details, the method annotated with @PutMapping will handle the request and update the resource accordingly.
+4. @DeleteMapping: This annotation maps HTTP DELETE requests to a handler method. It is used for deleting resources from the server. 
+ When a client sends a request to delete a resource, such as removing a user by ID, the method annotated with @DeleteMapping will process the request and delete the specified resource.
+ -->

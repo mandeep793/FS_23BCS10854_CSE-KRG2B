@@ -1,0 +1,83 @@
+<!--QUES 2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- create responsive registration form using html and css:
+    include fields : name,email,password
+    center the form on the page and style the "register" button with hover effect -->
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .registration-form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .registration-form h2 {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .registration-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .registration-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .registration-form button:hover {
+            background-color: purple;
+        }
+    </style>
+
+    <form class="registration-form">
+        <h2>Register</h2>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
+
+<!-- concepts used: HTML forms, CSS Flexbox, CSS styling, responsive design, hover effects
+concepts exlpanied:
+1. HTML Forms: The form element is used to create a registration form with input fields for name,
+ email, and password. Each input field has a placeholder attribute to guide users on what information 
+ to enter.
+2. CSS Flexbox: The body uses Flexbox to center the registration form both vertically and horizontally
+ on the page. This is achieved with the properties display: flex, justify-content: center, and align-items: center.
+3. CSS Styling: Various CSS properties are applied to style the form, including background color,
+  padding, border-radius, and box-shadow to enhance the visual appeal of the form.
+4. Responsive Design: The form is designed to be responsive by setting a fixed width and using
+ percentage-based widths for input fields and buttons, ensuring it looks good on different screen sizes.
+5. Hover Effects: The "Register" button has a hover effect that changes its background color when
+ the user hovers over it, providing visual feedback and enhancing user experience. -->
+
+
+
+ 
